@@ -1,0 +1,420 @@
+body,html{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display:inline-block;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header img {
+    width: 80px;
+    margin: 10px 10px 10px ;
+    
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+header nav a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+
+
+.container {
+    display: flex;
+    flex: 1;
+    margin: 0;
+ }
+
+ .aside-container{
+    width: 27%;
+    background-color: rgb(178, 212, 232);
+    border-radius: 8px;
+    margin-top: 20px;
+
+ }
+
+ section h3 {
+    width: 500;
+    padding: 10px;
+    text-align: center;
+ }
+
+ section h4 {
+    width: 500;
+    padding: 10px;
+    text-align: center;
+ }
+
+ .carousel {
+    width: 80%;
+    margin: 34px;
+ }
+
+ .d-block w-100{
+    width: 303px;
+ }
+
+ .main-container {
+   width: 100%;
+   margin-top: 20px;
+   margin-left: 20px;
+ }
+
+ .main-container h1 {
+    text-align: center;
+    
+
+ }
+
+ .main-container h2 {
+    margin: 30px;
+ }
+
+ .main-container img {
+    width: 500px;
+ }
+
+ footer{
+    background-color: rgb(47, 46, 46);
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+
+ }
+
+ footer div img {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    margin-left: 10px;
+ }
+
+ footer nav a {
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+ }
+
+ 
+
+
+
+
+
+
+
+ @media  screen and (max-width:825px  ) {
+   body,html{
+      font-family: "Montserrat", Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  header{
+      display:inline-block;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+  }
+  
+  header img {
+      width: 36px;
+      margin: 5px ;
+      
+  }
+  
+  .bg-body-tertiary {
+   --bs-bg-opacity: 1;
+
+  }
+  
+  header nav a {
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      align-items: center;
+      font-size: 12px;
+  }
+  
+  
+  .container {
+      display: flex;
+      flex: 1;
+      margin: 0;
+   }
+  
+   .aside-container{
+      width: 40%;
+      background-color: rgb(36 153 221);
+      border-radius: 8px;
+      margin-top: 20px;
+  
+   }
+  
+   section h3 {
+      
+      padding: 10px;
+      text-align: center;
+      font-size: 20px;
+   }
+  
+   section h4 {
+      
+      padding: 10px;
+      text-align: center;
+      font-size: 18px;
+   }
+
+   section p {
+      font-size: 12px;
+   }
+  
+   .carousel {
+      width: 80%;
+      margin: 17px;
+   }
+  
+   .d-block w-100{
+      width: 303px;
+   }
+  
+   .main-container {
+     width: 100%;
+     margin-top: 20px;
+     margin-left: 20px;
+   }
+  
+   .main-container h1 {
+      text-align: center;
+      font-size: 30px;
+      
+  
+   }
+  
+   .main-container h2 {
+      margin-top: 20px;
+      font-size: 20px;
+   }
+
+   .main-container p {
+      font-size: 12px;
+   }
+
+      
+  
+   .main-container img {
+      width: 300px;
+   }
+  
+   footer{
+      background-color: rgb(47, 46, 46);
+      color: white;
+      text-align: center;
+      align-items: center;
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      margin: 5px;
+  
+   }
+  
+   footer div img {
+      display: flex;
+      width: 100px;
+      align-items: center;
+      margin-left: 10px;
+   }
+  
+   footer nav a {
+      text-decoration: none;
+      padding: 10px;
+      display: flex;
+      flex-direction: center;
+      justify-content: center;
+      align-items: center;
+      color: whitesmoke;
+      font-size: 12px;
+   }
+  
+ }
+
+
+ @media  screen and (max-width:390px  ){
+   body,html{
+      font-family: "Montserrat", Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  header{
+   width: 100%;
+   align-items: center;
+  }
+
+
+  
+  header img {
+      width: 36px;
+      margin: 3px ;
+      
+  }
+  
+  header nav {
+   display: flex;
+   gap: 30px;
+   width: 100%;
+  }
+  .navbar{
+   display: none;
+  }
+
+  header nav a {
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      align-items: center;
+      font-size: 9px;
+  }
+  
+  
+  .container {
+      display: flex;
+      flex: 1;
+      margin: 0;
+   }
+  
+   .aside-container{
+      width: 40%;
+      background-color: rgb(36 153 221);
+      border-radius: 8px;
+      margin-top: 20px;
+  
+   }
+  
+   section h3 {
+      
+      padding: 10px;
+      text-align: center;
+      font-size: 13px;
+   }
+  
+   section h4 {
+      
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+   }
+
+   section p {
+      font-size: 9px;
+   }
+  
+   .carousel {
+      width: 80%;
+      margin: 8px;
+   }
+  
+   .d-block w-100{
+      width: 303px;
+   }
+  
+   .main-container {
+     width: 75%;
+     margin-top: 20px;
+     margin-left: 20px;
+   }
+  
+   .main-container h1 {
+      text-align: center;
+      font-size: 12px;
+      
+  
+   }
+  
+   .main-container h2 {
+      margin-top: 20px;
+      font-size: 10px;
+      margin-left: 0;
+   }
+
+   .main-container p {
+      font-size: 9px;
+   }
+
+      
+  
+   .main-container img {
+      width: 190px;
+   }
+  
+   footer{
+      background-color: rgb(47, 46, 46);
+      color: white;
+      text-align: center;
+      align-items: center;
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      margin: 5px;
+  
+   }
+  
+
+   .page{
+      display: none;
+   }
+
+
+   footer div img {
+      display: flex;
+      width: 75px;
+      align-items: center;
+      margin-left: 3px;
+   }
+  
+   footer nav a {
+      text-decoration: none;
+      padding: 10px;
+      display: flex;
+      flex-direction: center;
+      justify-content: center;
+      align-items: center;
+      color: whitesmoke;
+      font-size: 9px;
+   }
+  
+ 
+ }
